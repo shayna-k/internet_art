@@ -1,0 +1,245 @@
+body {
+    background-color: black;
+  }
+
+
+.flower{
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    background-color: cadetblue;
+    border-radius: 50px;
+  /*   margin-top: 20px; */
+    left: 10%;
+    top: 20%;
+  /*   z-index: 5; */
+  }
+    
+  .flower::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 50px;
+    transform: rotate(60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: cadetblue;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower:hover {
+    background-color: rgb(122, 18, 114)
+  }
+  .flower:hover::before {
+    background-color: rgb(122, 18, 114)
+  }
+  .flower:hover::after {
+    background-color: rgb(122, 18, 114)
+  }
+    
+  
+    
+    
+  .flower2{
+    width: 280px;
+    height: 100px;
+    left: 60%;
+    top: 50%;
+    position: absolute;
+    background-color: rgb(113, 231, 109);
+    border-radius: 50px;
+  /*   margin-top: 20px; */
+  /*   z-index: 5; */
+  }
+    
+  .flower2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: rgb(113, 231, 109);
+    border-radius: 50px;
+    transform: rotate(60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower2::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: rgb(113, 231, 109);
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  /*   z-index: 5; */
+  }
+    
+  .flower2:hover {
+    background-color: rgb(123, 62, 194)
+  }
+  .flower2:hover::before {
+    background-color: rgb(123, 62, 194)
+  }
+  .flower2:hover::after {
+    background-color: rgb(123, 62, 194)
+  }
+  
+  
+    
+    
+  
+  .flower3{
+    width: 280px;
+    height: 100px;
+    left: 15%;
+    top: 60%;
+    position: absolute;
+    background-color: pink;
+    border-radius: 50px;
+  /*   margin-top: 20px; */
+  /*   z-index: 5; */
+  }
+    
+  .flower3::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    transform: rotate(60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower3::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  /*   z-index: 5; */
+  }
+    
+  .flower3:hover {
+    background-color: rgb(45, 160, 212)
+  }
+  .flower3:hover::before {
+    background-color: rgb(45, 160, 212)
+  }
+  .flower3:hover::after {
+    background-color: rgb(45, 160, 212)
+  }
+    
+
+
+  .flower4{
+    width: 280px;
+    height: 100px;
+    left: 35%;
+    top: 80%;
+    position: absolute;
+    background-color: orange;
+    border-radius: 50px;
+  /*   margin-top: 20px; */
+  /*   z-index: 5; */
+  }
+    
+  .flower4::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50px;
+    transform: rotate(60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower4::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  /*   z-index: 5; */
+  }
+    
+  .flower4:hover {
+    background-color: rgb(155, 218, 40)
+  }
+  .flower4:hover::before {
+    background-color: rgb(155, 218, 40)
+  }
+  .flower4:hover::after {
+    background-color: rgb(155, 218, 40)
+  }
+
+
+
+  .flower5{
+    width: 280px;
+    height: 100px;
+    position: absolute;
+    background-color: hotpink;
+    border-radius: 50px;
+  /*   margin-top: 20px; */
+    left: 42%;
+    top: 22%;
+  /*   z-index: 5; */
+  }
+    
+  .flower5::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    transform: rotate(60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower5::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    background-color: hotpink;
+    border-radius: 50px;
+    transform: rotate(-60deg);
+  /*   z-index: 5; */
+  }
+  
+  .flower5:hover {
+    background-color: rgb(54, 2, 75)
+  }
+  .flower5:hover::before {
+    background-color: rgb(54, 2, 75)
+  }
+  .flower5:hover::after {
+    background-color: rgb(54, 2, 75)
+  }
