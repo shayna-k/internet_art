@@ -18,7 +18,7 @@ h1, p{
   position: absolute;
   background-color: cadetblue;
   border-radius: 50px;
-  left: 30%;
+  left: 27%;
   top: 15%;
 }
     
@@ -45,13 +45,16 @@ h1, p{
 }
 
 .flower:hover {
-  background-color: rgb(122, 18, 114)
+  background-color: rgb(122, 18, 114);
+  transition: all 1s;
 }
 .flower:hover::before {
-  background-color: rgb(122, 18, 114)
+  background-color: rgb(122, 18, 114);
+  transition: all 1s;
 }
 .flower:hover::after {
-  background-color: rgb(122, 18, 114)
+  background-color: rgb(122, 18, 114);
+  transition: all 1s;
 }
   
 
@@ -93,13 +96,16 @@ h1, p{
 }
   
 .flower2:hover {
-  background-color: rgb(123, 62, 194)
+  background-color: rgb(123, 62, 194);
+  transition: all 1s;
 }
 .flower2:hover::before {
-  background-color: rgb(123, 62, 194)
+  background-color: rgb(123, 62, 194);
+  transition: all 1s;
 }
 .flower2:hover::after {
-  background-color: rgb(123, 62, 194)
+  background-color: rgb(123, 62, 194);
+  transition: all 1s;
 }
 
   
@@ -141,13 +147,16 @@ h1, p{
 }
   
 .flower3:hover {
-  background-color: rgb(45, 160, 212)
+  background-color: rgb(45, 160, 212);
+  transition: all 1s;
 }
 .flower3:hover::before {
-  background-color: rgb(45, 160, 212)
+  background-color: rgb(45, 160, 212);
+  transition: all 1s;
 }
 .flower3:hover::after {
-  background-color: rgb(45, 160, 212)
+  background-color: rgb(45, 160, 212);
+  transition: all 1s;
 }
   
 
@@ -189,13 +198,16 @@ h1, p{
 }
   
 .flower4:hover {
-  background-color: rgb(155, 218, 40)
+  background-color: rgb(155, 218, 40);
+  transition: all 1s; 
 }
 .flower4:hover::before {
-  background-color: rgb(155, 218, 40)
+  background-color: rgb(155, 218, 40);
+  transition: all 1s;
 }
 .flower4:hover::after {
-  background-color: rgb(155, 218, 40)
+  background-color: rgb(155, 218, 40);
+  transition: all 1s;
 }
 
 
@@ -237,13 +249,16 @@ h1, p{
 }
 
 .flower5:hover {
-  background-color: rgb(54, 2, 75)
+  background-color: rgb(54, 2, 75);
+  transition: all 1s;
 }
 .flower5:hover::before {
-  background-color: rgb(54, 2, 75)
+  background-color: rgb(54, 2, 75);
+  transition: all 1s;
 }
 .flower5:hover::after {
-  background-color: rgb(54, 2, 75)
+  background-color: rgb(54, 2, 75);
+  transition: all 1s;
 }
 
 
@@ -285,13 +300,16 @@ h1, p{
 }
 
 .flower6:hover {
-  background-color: rgb(177, 235, 19)
+  background-color: rgb(177, 235, 19);
+  transition: all 1s;
 }
 .flower6:hover::before {
-  background-color: rgb(177, 235, 19)
+  background-color: rgb(177, 235, 19);
+  transition: all 1s;
 }
 .flower6:hover::after {
-  background-color: rgb(177, 235, 19)
+  background-color: rgb(177, 235, 19);
+  transition: all 1s;
 }
 
 
@@ -333,13 +351,16 @@ h1, p{
 }
 
 .flower7:hover {
-  background-color: rgb(252, 63, 63)
+  background-color: rgb(252, 63, 63);
+  transition: all 1s;
 }
 .flower7:hover::before {
-  background-color: rgb(252, 63, 63)
+  background-color: rgb(252, 63, 63);
+  transition: all 1s;
 }
 .flower7:hover::after {
-  background-color: rgb(252, 63, 63)
+  background-color: rgb(252, 63, 63);
+  transition: all 1s;
 }
 
 
@@ -381,13 +402,16 @@ h1, p{
 }
 
 .flower8:hover {
-  background-color: rgb(7, 148, 167)
+  background-color: rgb(7, 148, 167);
+  transition: all 1s;
 }
 .flower8:hover::before {
-  background-color: rgb(7, 148, 167)
+  background-color: rgb(7, 148, 167);
+  transition: all 1s;
 }
 .flower8:hover::after {
-  background-color: rgb(7, 148, 167)
+  background-color: rgb(7, 148, 167);
+  transition: all 1s;
 }
 
 
@@ -402,7 +426,7 @@ h1, p{
   position: absolute;
   background-color: rgb(35, 209, 166);
   border-radius: 50px;
-  left: 80%;
+  left: 76%;
   top: 19%;
 }
   
@@ -429,13 +453,16 @@ h1, p{
 }
 
 .flower9:hover {
-  background-color: rgb(214, 55, 90)
+  background-color: rgb(214, 55, 90);
+  transition: all 1s;
 }
 .flower9:hover::before {
-  background-color: rgb(214, 55, 90)
+  background-color: rgb(214, 55, 90);
+  transition: all 1s;
 }
 .flower9:hover::after {
-  background-color: rgb(214, 55, 90)
+  background-color: rgb(214, 55, 90);
+  transition: all 1s;
 }
 
 
@@ -477,13 +504,16 @@ h1, p{
 }
 
 .flower10:hover {
-  background-color: rgb(55, 92, 97)
+  background-color: rgb(55, 92, 97);
+  transition: all 1s;
 }
 .flower10:hover::before {
-  background-color: rgb(55, 92, 97)
+  background-color: rgb(55, 92, 97);
+  transition: all 1s;
 }
 .flower10:hover::after {
-  background-color: rgb(55, 92, 97)
+  background-color: rgb(55, 92, 97);
+  transition: all 1s;
 }
 
 
@@ -525,11 +555,14 @@ h1, p{
 }
 
 .flower11:hover {
-  background-color: rgb(32, 197, 17)
+  background-color: rgb(32, 197, 17);
+  transition: all 1s;
 }
 .flower11:hover::before {
-  background-color: rgb(32, 197, 17)
+  background-color: rgb(32, 197, 17);
+  transition: all 1s;
 }
 .flower11:hover::after {
-  background-color: rgb(32, 197, 17)
+  background-color: rgb(32, 197, 17);
+  transition: all 1s;
 }
