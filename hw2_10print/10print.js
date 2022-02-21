@@ -1,7 +1,6 @@
 const sw = process.stdout.columns
 
 // const all_types = ['blocks', 'crosses', 'lines', 'corners', 'hollow_corners', 'shades', 'semicircles']
-// const types = ['blocks', 'crosses', 'shades']
 
 const blocks = [ '█', '▊', '▋', '▌', '▍', '▎', '▏']
 const crosses = ['╳', '╱', '╲']
@@ -33,40 +32,27 @@ let flag = 4
 
 function draw () {
     setTimeout(draw, 1000/10)
-    // let size = Math.floor(Math.random()*5)
-    // flag = Math.floor(Math.random()*5)
     if (w1 > sw/2 -1 || w1 < 0){
         flag *= -1
     }
     w1 += flag
-    // let bcolor = Math.floor(Math.random() * b_bcolors.length)
     let choose_type = Math.floor(Math.random() * types.length)
-    // let type = types[choose_type]
 
     let output = ''
     for (let i = 0; i < w1-1; i++) {
         let item = Math.floor(Math.random() * types[choose_type].length)
         let fcolor = Math.floor(Math.random() * b_fcolors.length)
-        // let bcolor = Math.floor(Math.random() * b_bcolors.length)
-        // let bcolor2 = 
         output += b_fcolors[fcolor] + types[choose_type][item]
-        //b_bcolors[bcolor] +
     }
 
     let output2 = ''
     for (let i = sw-1; i > sw/2; i--){
         let item = Math.floor(Math.random() * types[choose_type].length)
         let fcolor = Math.floor(Math.random() * b_fcolors.length)
-        // padding = ''
-        // for (let j = 0; j<i; i++){
-        //     padding+=' ' 
-        // }
         output2 += b_fcolors[fcolor] + types[choose_type][item]
         output2.padStart(sw, '0')
     }
-    // console.log('\x1b[40m'+output)
-    console.log(output+output2)
-    // console.log('\x1b[40m'+output + output2.padStart(sw/2, ' '))
+    console.log('\x1b[0m'+output+output2)
 
 }
 
