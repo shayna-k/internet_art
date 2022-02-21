@@ -45,13 +45,9 @@ function draw () {
     let fcolor = get_random(b_fcols.length)
 
     let output = '', output2 = ''
-    for (let i = 0; i < w-1; i++) {
-        output += b_fcols[fcolor] + types[type][item]
-    }
-
-    for (let i = sw-1; i > sw/2; i--){
-        output2 += b_fcols[fcolor] + types[type][item]
-    }
+    for (let i = 0; i < w-1; i++) { output += b_fcols[fcolor] + types[type][item] }
+    for (let i = sw-1; i > sw/2; i--){ output2 += b_fcols[fcolor] + types[type][item] }
+    
     console.log('\x1b[0m'+output+output2)
 }
 
