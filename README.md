@@ -8,3 +8,6 @@ hw1_css_art:
 hw2_10print:
 - My take on the line of code '10 PRINT CHR$(205.5+RND(1)); : GOTO 10' in BASIC for the Commodore 64
 - Can be manipulated and played with according to your preferences!
+
+hw3_form_code:
+- Generates a differnet pattern everytime
